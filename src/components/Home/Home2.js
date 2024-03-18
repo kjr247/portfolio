@@ -16,9 +16,11 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <p className="home-about-body">
-              <br />I am fluent in classics like
+              <br />With 14 years of experience,
+              <br />
+              I am fluent in
               <i>
-                <b className="purple"> C#, TypeScript, and SQL. </b>
+                <b className="purple"> C#, TypeScript, and SQL and many other languages and stacks. </b>
               </i>
               <br />
               <br />
