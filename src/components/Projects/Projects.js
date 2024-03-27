@@ -1,8 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import ProjectCard from "./ProjectCards";
+import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
+import G1 from "../../Assets/Projects/GaiaGuage/1.png";
+import G2 from "../../Assets/Projects/GaiaGuage/2.png";
+import GGDemo from "../../Assets/Projects/GaiaGuage/GGDemo.mp4";
+
+import SJBG from "../../Assets/Projects/SpaceJanitor-DysonSphearArchitect/spaceJanitorBackground2.png";
+import SJDemo from "../../Assets/Projects/SpaceJanitor-DysonSphearArchitect/SJDemo.mp4";
 // import emotion from "../../Assets/Projects/emotion.png";
 // import editor from "../../Assets/Projects/codeEditor.png";
 // import chatify from "../../Assets/Projects/chatify.png";
@@ -21,28 +26,29 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
+           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPaths={[G2]}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/kjr247/Chatify"
-              demoLink=""
+              title="Longevity Gauge"
+              description="Built with C# .Net Blazor WebAssembly and running on Azure Static Web Application. Private project. Using peer reviewed medical journal data to gauge expected longevity and provide you with a Longevity Score."
+              ghLink={G1}
+              demoLinks={[GGDemo]}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              toggleActionFromImgPath={false}
+              imgPaths={[SJBG]}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/kjr247/Bits-0f-C0de"
-              demoLink=""
+              title="Dyson Sphere Architect"
+              description="Built on C# and Unity3D. A space game for building a dyson mesh or dyson sphear to harvest the energy from dying stars and cleaning up the mess when it's done."
+              ghLink=""
+              demoLinks={[SJDemo]}
             />
           </Col>
-
+{/*
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}

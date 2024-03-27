@@ -3,13 +3,20 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-
+import VideoPlayer from "../VideoPlayer";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+      { props.demoLinks && props.demoLinks.map((x, idx) => 
+          props.demoLinks[idx] ?
+            <VideoPlayer key={`${x}-${idx}`} videoSrc={x} imgSrc={props.imgPaths[idx]} />
+          :
+            <Card.Img key={`${x}-${idx}`} src={props.imgPaths[idx]} alt="card-img" />
+        )
+      }
+      
+      <Card.Body >
+        <Card.Title >{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>

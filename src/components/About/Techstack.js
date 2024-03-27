@@ -14,7 +14,6 @@ import {
   SiRedis,
   SiFirebase,
   SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
   SiBlazor
 } from "react-icons/si";
