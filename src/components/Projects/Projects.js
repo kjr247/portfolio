@@ -5,7 +5,8 @@ import Particle from "../Particle";
 import G1 from "../../Assets/Projects/GaiaGuage/1.png";
 import G2 from "../../Assets/Projects/GaiaGuage/2.png";
 import GGDemo from "../../Assets/Projects/GaiaGuage/GGDemo.mp4";
-
+import DSABG from "../../Assets/Projects/DSA Notions Table/DSANotionsBG.png";
+import DSDemo from "../../Assets/Projects/DSA Notions Table/DSAVid.mp4";
 import SJBG from "../../Assets/Projects/SpaceJanitor-DysonSphearArchitect/spaceJanitorBackground2.png";
 import SJDemo from "../../Assets/Projects/SpaceJanitor-DysonSphearArchitect/SJDemo.mp4";
 // import emotion from "../../Assets/Projects/emotion.png";
@@ -48,18 +49,19 @@ function Projects() {
               demoLinks={[SJDemo]}
             />
           </Col>
-{/*
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              toggleActionFromImgPath={false}
+              imgPaths={[DSABG]}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/kjr247/Editor.io"
-              demoLink="" 
+              title="DSA Notions Table"
+              description="Built on C# and Unity3D. A space game for building a dyson mesh or dyson sphear to harvest the energy from dying stars and cleaning up the mess when it's done."
+              ghLink="https://lavender-halloumi-36e.notion.site/63025e0e50944ca5918b074b11a0117b?v=9c13bc56f89c449f9133e229e5bac295"
+              demoLinks={[DSDemo]}
             />
           </Col>
-
+{/*
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
