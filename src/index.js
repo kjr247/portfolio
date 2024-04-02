@@ -4,7 +4,12 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import LogRocket from 'logrocket';
-LogRocket.init('gofows/portfolio');
+
+if (process.env.NODE_ENV != 'development') {
+  console.log("logrocket innitializing");
+  LogRocket.init('gofows/portfolio');
+  console.log("logrocket innitializing complete");
+}
 
 ReactDOM.render(
   <React.StrictMode>
