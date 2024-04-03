@@ -56,7 +56,7 @@ function Projects() {
               imgPaths={[DSABG]}
               isBlog={false}
               title="DSA Notions Table"
-              description="Built on C# and Unity3D. A space game for building a dyson mesh or dyson sphear to harvest the energy from dying stars and cleaning up the mess when it's done."
+              description="A Data Structures and Algorithms notion table of use cases, edge cases, and optimization paths."
               ghLink="https://lavender-halloumi-36e.notion.site/63025e0e50944ca5918b074b11a0117b?v=9c13bc56f89c449f9133e229e5bac295"
               demoLinks={[DSDemo]}
             />
