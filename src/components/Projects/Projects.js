@@ -74,13 +74,13 @@ function Projects() {
           <Col md={12} className="project-card">
             <ProjectCard
               toggleActionFromImgPath={false}
-              imgPaths={["https://learn.microsoft.com/en-us/users/kylejacksonrebstock-4203/achievements?tab=applied-skills-tab"]}
+              imgPaths={["https://learn.microsoft.com/en-us/users/kylejacksonrebstock-4203/transcript/vymnquokll80r58"]}
               isBlog={false}
               title="Azure"
               description=""
-              contentLink="https://learn.microsoft.com/en-us/users/kylejacksonrebstock-4203/achievements?tab=applied-skills-tab"
-              demoLinks={["https://learn.microsoft.com/en-us/users/kylejacksonrebstock-4203/achievements?tab=applied-skills-tab"]}
-              buttonTitle="Azure Acheivements"
+              contentLink="https://learn.microsoft.com/en-us/users/kylejacksonrebstock-4203/transcript/vymnquokll80r58"
+              demoLinks={["https://learn.microsoft.com/en-us/users/kylejacksonrebstock-4203/transcript/vymnquokll80r58"]}
+              buttonTitle="View Transcript of Achievements"
             >
               <Col className="tech-icons">
                 <SiMicrosoftazure />
