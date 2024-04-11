@@ -5,9 +5,10 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import VideoPlayer from "../VideoPlayer";
 function ProjectCards(props) {
-  return (
+  return (    
     <Card className="project-card-view">
-      { props.demoLinks && props.demoLinks.map((x, idx) => 
+      {props.children || ''}
+      { !props.children && props.demoLinks && props.demoLinks.map((x, idx) => 
           props.demoLinks[idx] ?
             <VideoPlayer key={`${x}-${idx}`} videoSrc={x} imgSrc={props.imgPaths[idx]} />
           :
@@ -20,9 +21,9 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+        <Button variant="primary" href={props.contentLink} target="_blank">
+          {props.hasCode && <BsGithub /> } &nbsp;
+          {props.buttonTitle}
         </Button>
         {"\n"}
         {"\n"}

@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { FaAws } from "react-icons/fa";
 import { TbBrandCSharp, TbBrandTypescript  } from "react-icons/tb";
 import {
   DiJavascript1,
@@ -15,12 +16,19 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiPostgresql,
-  SiBlazor
+  SiBlazor,
+  SiMicrosoftazure
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftazure />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAws />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <TbBrandCSharp />
       </Col>
@@ -28,7 +36,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandTypescript  />
+        <TbBrandTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
