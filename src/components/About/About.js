@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-// import Github from "./Github";
+import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import { ImPointRight } from "react-icons/im";
+import Card from "react-bootstrap/Card";
 
 function About() {
   return (
@@ -42,7 +44,24 @@ function About() {
         </h1>
         <Toolstack />
 
-        {/* <Github /> */}
+        <Github />
+
+        <Card className="quote-card-view">
+          <Card.Body>
+            <p>Apart from coding, some other activities I enjoy:</p>
+            <ul>
+              <li className="about-activity">
+                <ImPointRight /> Soccer - I run a soccer league and I am a big Messi and Atlanta 5 Stripes fan.
+              </li>
+              <li className="about-activity">
+                <ImPointRight /> Writing Tech Blogs
+              </li>
+              <li className="about-activity">
+                <ImPointRight /> Traveling
+              </li>
+            </ul>
+            </Card.Body>
+          </Card>
       </Container>
     </Container>
   );
