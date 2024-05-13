@@ -51,13 +51,13 @@ function About() {
             <p>Apart from coding, some other activities I enjoy:</p>
             <ul>
               <li className="about-activity">
-                <ImPointRight /> Soccer - I run a soccer league and I am a big Messi and Atlanta 5 Stripes fan.
+                <ImPointRight /> Reading and Writing Tech Blogs and building things with my hands!
               </li>
               <li className="about-activity">
-                <ImPointRight /> Writing Tech Blogs
+                <ImPointRight /> Soccer - I founded and run a soccer league and I'm a huge Messi and Atlanta 5 Stripes fan.
               </li>
               <li className="about-activity">
-                <ImPointRight /> Traveling
+                <ImPointRight /> Traveling (7 countries and 20 states so far)
               </li>
             </ul>
             </Card.Body>
