@@ -19,7 +19,7 @@ function AboutCard() {
             <br />
           </p>
           <p style={{ color: "rgb(155 126 172)" }}>
-            "We can innovate and beat our competition by being faster, better, and cheaper."{" "}
+            "The sweet spot is innovating to be faster, better, and cheaper and building the people around us."{" "}
           </p>
           <footer className="blockquote-footer">Kyle</footer>
         </blockquote>
