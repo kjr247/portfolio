@@ -14,7 +14,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             I am currently employed as a hands on Sr. Software Engineering Manager and Architect at Driverse a DRB Vontier Company.
             <br />
-            My passions are integrations and innovating.
+            My passions are integrations, innovating, and building the people around me.
             <br />
             <br />
           </p>
