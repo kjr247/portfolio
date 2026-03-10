@@ -12,7 +12,7 @@ function AboutCard() {
               <span className="purple"> Atlanta</span> based. 
           </p>
           <p style={{ textAlign: "justify" }}>
-            I am currently employed as a hands on Director Of Software Engineering Management and Architect at an enterprise level corporation in the Healthcare Industry.
+            I am currently employed as a very hands on Director Of Software Engineering and Architecture at Aveanna Healthcare.
             <br />
             My passions are integrations, innovating, and building the people around me.
             <br />
