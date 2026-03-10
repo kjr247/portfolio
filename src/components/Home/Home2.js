@@ -15,7 +15,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-description">
             <p className="home-about-body">
-              <br />With 14 years of experience,
+              <br />With 17+ years of experience,
               <br />
               I am fluent in
               <i>
