@@ -21,6 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 
 .history
 .lh
+=======
+.history
+>>>>>>> d54f0b37a7b415ce547638e46f25e202d1581ba3
