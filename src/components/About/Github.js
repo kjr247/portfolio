@@ -17,7 +17,10 @@ function Github() {
         color="#c084f5"
         fontSize={16}
       />
-      <GithubStats />
+      
+      {/* TODO: This began failing because vercel or some vendor changed their pricing to use this endpoint. We'll have to check the docs on how this should be run now.
+          TODO: or better yet, don't use a third party service on your portfolio page. I wonder if this even threw logs for us to glance at.
+      <GithubStats /> */}
     </Row>
   );
 }
