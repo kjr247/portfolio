@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import C1 from "../../Assets/Projects/CTreeCommander/CTreeCommander1.png";
+import C2 from "../../Assets/Projects/CTreeCommander/CTreeCommander2.png";
+import CTree from "../../Assets/Projects/CTreeCommander/CTreeCommander.mp4";
 import G1 from "../../Assets/Projects/GaiaGuage/1.png";
 import G2 from "../../Assets/Projects/GaiaGuage/2.png";
 import GGDemo from "../../Assets/Projects/GaiaGuage/GGDemo.mp4";
@@ -67,6 +70,19 @@ function Projects() {
               description="A Data Structures and Algorithms notion table of use cases, edge cases, and optimization paths. A living document of knowledge."
               contentLink="https://lavender-halloumi-36e.notion.site/63025e0e50944ca5918b074b11a0117b?v=9c13bc56f89c449f9133e229e5bac295"
               demoLinks={[DSDemo]}
+              buttonTitle="Notion"
+            />
+          </Col>
+
+          <Col md={12} className="project-card">
+            <ProjectCard
+              toggleActionFromImgPath={false}
+              imgPaths={[C1, C2]}
+              isBlog={false}
+              title="CTree Commander"
+              description="CTree Commander is my own Computer Hard Drive Manager App written in Electron, Typescript, ReactJS. This leverages Windows API's and digs deeper into system internals to clean up orphaned files left behind by other applications. CTree can clean up your recycle bin, OS Err Reports, Windows Updates and Temp files. This application is in Alpha and is known to clean files very aggressively by best practices. That said, Microsoft Windows does not always follow best practices and can lead to needing restore points. This application also handles restore points. Cleans up storage devices lightning fast. This can clean many areas of your drive that many other applications won't even touch. You can recover vast amounts of space from storage without needing to search or purchase storage upgrades. You don't need to upgrade your storage for hundreds or thousands of dollars."
+              contentLink=""
+              demoLinks={[CTree]}
               buttonTitle="Notion"
             />
           </Col>
